@@ -1,0 +1,8 @@
+---
+applications:
+  - name: nginx-test
+    memory: 768M
+    disk_quota: 1G
+    buildpacks:
+      - nginx_buildpack
+  
